@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EF49D70-494D-46F6-AEB6-EA03DCFDDBE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>$safeprojectname$.My.MyApplication</StartupObject>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+    <AssemblyName>$safeprojectname$</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$safeprojectname$.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$safeprojectname$.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Desktop\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountNavBar.Designer.vb">
+      <DependentUpon>AccountNavBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountNavBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.vb">
+      <DependentUpon>AddEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddResident.Designer.vb">
+      <DependentUpon>AddResident.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddResident.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.vb">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.vb">
+      <DependentUpon>AdminDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStaff.Designer.vb">
+      <DependentUpon>AdminStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceRecord.Designer.vb">
+      <DependentUpon>AttendanceRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clearance.Designer.vb">
+      <DependentUpon>Clearance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clearance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClearanceDashboard.Designer.vb">
+      <DependentUpon>ClearanceDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClearanceDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClearanceNavBar.Designer.vb">
+      <DependentUpon>ClearanceNavBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClearanceNavBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CrystalReport2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CrystalReport3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DeleteMessage.Designer.vb">
+      <DependentUpon>DeleteMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteMessageAdminStaff.Designer.vb">
+      <DependentUpon>DeleteMessageAdminStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMessageAdminStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAccount.Designer.vb">
+      <DependentUpon>EmployeeAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.Designer.vb">
+      <DependentUpon>Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfodeskDashboard.Designer.vb">
+      <DependentUpon>InfodeskDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfodeskDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoDeskPersonnel.Designer.vb">
+      <DependentUpon>InfoDeskPersonnel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoDeskPersonnel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QueueController.Designer.vb">
+      <DependentUpon>QueueController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueController2.Designer.vb">
+      <DependentUpon>QueueController2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueController2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueController3.Designer.vb">
+      <DependentUpon>QueueController3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueController3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueingWindow.Designer.vb">
+      <DependentUpon>QueueingWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueingWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueNavBar.Designer.vb">
+      <DependentUpon>QueueNavBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueNavBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueNumber.Designer.vb">
+      <DependentUpon>QueueNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueNumber2.Designer.vb">
+      <DependentUpon>QueueNumber2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueNumber2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueNumber3.Designer.vb">
+      <DependentUpon>QueueNumber3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueueNumber3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReqFormBarangayClearance.Designer.vb">
+      <DependentUpon>ReqFormBarangayClearance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReqFormBarangayClearance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReqFormBarangayID.Designer.vb">
+      <DependentUpon>ReqFormBarangayID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReqFormBarangayID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReqFormCOI.Designer.vb">
+      <DependentUpon>ReqFormCOI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReqFormCOI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignOutMessage.Designer.vb">
+      <DependentUpon>SignOutMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignOutMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnderConstruction.Designer.vb">
+      <DependentUpon>UnderConstruction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnderConstruction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAccounts.Designer.vb">
+      <DependentUpon>UpdateAccounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAccounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateResidentData.Designer.vb">
+      <DependentUpon>UpdateResidentData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateResidentData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoidMessage.Designer.vb">
+      <DependentUpon>VoidMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoidMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoidMessage2.Designer.vb">
+      <DependentUpon>VoidMessage2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoidMessage2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoidMessage3.Designer.vb">
+      <DependentUpon>VoidMessage3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoidMessage3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowSelection.Designer.vb">
+      <DependentUpon>WindowSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WindowSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountNavBar.resx">
+      <DependentUpon>AccountNavBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddResident.resx">
+      <DependentUpon>AddResident.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStaff.resx">
+      <DependentUpon>AdminStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceRecord.resx">
+      <DependentUpon>AttendanceRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clearance.resx">
+      <DependentUpon>Clearance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClearanceDashboard.resx">
+      <DependentUpon>ClearanceDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClearanceNavBar.resx">
+      <DependentUpon>ClearanceNavBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteMessage.resx">
+      <DependentUpon>DeleteMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteMessageAdminStaff.resx">
+      <DependentUpon>DeleteMessageAdminStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAccount.resx">
+      <DependentUpon>EmployeeAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.resx">
+      <DependentUpon>Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfodeskDashboard.resx">
+      <DependentUpon>InfodeskDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoDeskPersonnel.resx">
+      <DependentUpon>InfoDeskPersonnel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueController.resx">
+      <DependentUpon>QueueController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueController2.resx">
+      <DependentUpon>QueueController2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueController3.resx">
+      <DependentUpon>QueueController3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueingWindow.resx">
+      <DependentUpon>QueueingWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueNavBar.resx">
+      <DependentUpon>QueueNavBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueNumber.resx">
+      <DependentUpon>QueueNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueNumber2.resx">
+      <DependentUpon>QueueNumber2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueNumber3.resx">
+      <DependentUpon>QueueNumber3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReqFormBarangayClearance.resx">
+      <DependentUpon>ReqFormBarangayClearance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReqFormBarangayID.resx">
+      <DependentUpon>ReqFormBarangayID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReqFormCOI.resx">
+      <DependentUpon>ReqFormCOI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignOutMessage.resx">
+      <DependentUpon>SignOutMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnderConstruction.resx">
+      <DependentUpon>UnderConstruction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAccounts.resx">
+      <DependentUpon>UpdateAccounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateResidentData.resx">
+      <DependentUpon>UpdateResidentData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidMessage.resx">
+      <DependentUpon>VoidMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidMessage2.resx">
+      <DependentUpon>VoidMessage2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidMessage3.resx">
+      <DependentUpon>VoidMessage3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowSelection.resx">
+      <DependentUpon>WindowSelection.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

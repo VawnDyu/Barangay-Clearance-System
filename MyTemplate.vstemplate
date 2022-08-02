@@ -1,0 +1,144 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Barangay Clearance System</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Barangay Clearance System</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="System.vbproj" File="System.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AccountNavBar.vb">AccountNavBar.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AccountNavBar.Designer.vb">AccountNavBar.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AccountNavBar.resx">AccountNavBar.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddEmployee.vb">AddEmployee.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddEmployee.Designer.vb">AddEmployee.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddEmployee.resx">AddEmployee.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddResident.vb">AddResident.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddResident.Designer.vb">AddResident.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddResident.resx">AddResident.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Admin.vb">Admin.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Admin.Designer.vb">Admin.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Admin.resx">Admin.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminDashboard.vb">AdminDashboard.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminDashboard.Designer.vb">AdminDashboard.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminDashboard.resx">AdminDashboard.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminStaff.vb">AdminStaff.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminStaff.Designer.vb">AdminStaff.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminStaff.resx">AdminStaff.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AttendanceRecord.vb">AttendanceRecord.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AttendanceRecord.Designer.vb">AttendanceRecord.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AttendanceRecord.resx">AttendanceRecord.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Clearance.vb">Clearance.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Clearance.Designer.vb">Clearance.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Clearance.resx">Clearance.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClearanceDashboard.vb">ClearanceDashboard.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClearanceDashboard.Designer.vb">ClearanceDashboard.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClearanceDashboard.resx">ClearanceDashboard.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClearanceNavBar.vb">ClearanceNavBar.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClearanceNavBar.Designer.vb">ClearanceNavBar.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClearanceNavBar.resx">ClearanceNavBar.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CrystalReport1.rpt">CrystalReport1.rpt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CrystalReport1.vb">CrystalReport1.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CrystalReport2.rpt">CrystalReport2.rpt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CrystalReport2.vb">CrystalReport2.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CrystalReport3.rpt">CrystalReport3.rpt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CrystalReport3.vb">CrystalReport3.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteMessage.vb">DeleteMessage.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteMessage.Designer.vb">DeleteMessage.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteMessage.resx">DeleteMessage.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteMessageAdminStaff.vb">DeleteMessageAdminStaff.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteMessageAdminStaff.Designer.vb">DeleteMessageAdminStaff.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteMessageAdminStaff.resx">DeleteMessageAdminStaff.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EmployeeAccount.vb">EmployeeAccount.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EmployeeAccount.Designer.vb">EmployeeAccount.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EmployeeAccount.resx">EmployeeAccount.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form.vb">Form.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form.Designer.vb">Form.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form.resx">Form.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InfodeskDashboard.vb">InfodeskDashboard.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InfodeskDashboard.Designer.vb">InfodeskDashboard.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InfodeskDashboard.resx">InfodeskDashboard.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InfoDeskPersonnel.vb">InfoDeskPersonnel.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InfoDeskPersonnel.Designer.vb">InfoDeskPersonnel.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InfoDeskPersonnel.resx">InfoDeskPersonnel.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.vb">Login.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.Designer.vb">Login.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.resx">Login.resx</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController.vb">QueueController.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController.Designer.vb">QueueController.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController.resx">QueueController.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController2.vb">QueueController2.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController2.Designer.vb">QueueController2.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController2.resx">QueueController2.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController3.vb">QueueController3.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController3.Designer.vb">QueueController3.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueController3.resx">QueueController3.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueingWindow.vb">QueueingWindow.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueingWindow.Designer.vb">QueueingWindow.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueingWindow.resx">QueueingWindow.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNavBar.vb">QueueNavBar.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNavBar.Designer.vb">QueueNavBar.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNavBar.resx">QueueNavBar.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber.vb">QueueNumber.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber.Designer.vb">QueueNumber.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber.resx">QueueNumber.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber2.vb">QueueNumber2.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber2.Designer.vb">QueueNumber2.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber2.resx">QueueNumber2.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber3.vb">QueueNumber3.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber3.Designer.vb">QueueNumber3.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="QueueNumber3.resx">QueueNumber3.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormBarangayClearance.vb">ReqFormBarangayClearance.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormBarangayClearance.Designer.vb">ReqFormBarangayClearance.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormBarangayClearance.resx">ReqFormBarangayClearance.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormBarangayID.vb">ReqFormBarangayID.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormBarangayID.Designer.vb">ReqFormBarangayID.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormBarangayID.resx">ReqFormBarangayID.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormCOI.vb">ReqFormCOI.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormCOI.Designer.vb">ReqFormCOI.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReqFormCOI.resx">ReqFormCOI.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SignOutMessage.vb">SignOutMessage.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SignOutMessage.Designer.vb">SignOutMessage.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SignOutMessage.resx">SignOutMessage.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UnderConstruction.vb">UnderConstruction.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UnderConstruction.Designer.vb">UnderConstruction.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UnderConstruction.resx">UnderConstruction.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdateAccounts.vb">UpdateAccounts.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdateAccounts.Designer.vb">UpdateAccounts.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdateAccounts.resx">UpdateAccounts.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdateResidentData.vb">UpdateResidentData.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdateResidentData.Designer.vb">UpdateResidentData.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdateResidentData.resx">UpdateResidentData.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage.vb">VoidMessage.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage.Designer.vb">VoidMessage.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage.resx">VoidMessage.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage2.vb">VoidMessage2.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage2.Designer.vb">VoidMessage2.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage2.resx">VoidMessage2.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage3.vb">VoidMessage3.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage3.Designer.vb">VoidMessage3.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VoidMessage3.resx">VoidMessage3.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WindowSelection.vb">WindowSelection.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WindowSelection.Designer.vb">WindowSelection.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WindowSelection.resx">WindowSelection.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
